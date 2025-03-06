@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Alata&family=Comic+Neue:ital,wght@0,400;0,700;1,700&family=Montserrat:wght@400;700&family=Mulish:wght@300;400&family=Open+Sans:wght@400;600&family=Poppins:wght@400;500&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/c0e27fec68.js" crossorigin="anonymous"></script>
+    
+    <title>Login to Cash Up</title>
+    
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="../wallet-client/js/main.js" defer></script>
+
+</head>
+
+<body>
+    <div class='login-outer-container'>
+        <div class='login-container'>
+            <div class='login-area'>
+                <h3>LOGIN TO Cash Up</h3>
+                <form id="login-form" class='login-items'">
+                    <label for="username">Email</label>
+                    <input type="email" class='login' name="email" placeholder='Enter you email' required />
+                    <label for="password">Password</label>
+                    <input type="password" class='login' name="password" placeholder="Enter Your Password" required />
+                    <input type="submit" class='login-btn' value="Login" name="login" />
+                </form>
+                <p class='Reg'>New to Cash Up? <a class='a' href="pages/register.html">Create an Account</a></p>
+                
+                <div class='social-login-container'>
+                    <p class='prompt'>or</p>
+                    <div class='social-login'>
+                        <button class='google-signin'><i class="fa-brands fa-google"></i> Login with Google</button>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
